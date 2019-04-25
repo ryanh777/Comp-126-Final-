@@ -14,6 +14,7 @@ html {
 
 :root {
     --carolina-blue: rgb(75, 156, 211);
+
 }
 
 header {
@@ -26,6 +27,10 @@ header {
     color: white;
     padding-right: 5%;
     align-items: center;
+}
+
+.nav-link:hover {
+    color: darkblue;
 }
 
 .searchbar {
@@ -46,10 +51,7 @@ input::placeholder {
     margin-right: 0.5em;
 }
 
-.nav-link {
-    color: white;
 
-}
 
 a {
     color: white;
