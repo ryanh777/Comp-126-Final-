@@ -1,0 +1,94 @@
+body {
+    font-family: 'Open Sans', sans-serif;
+    padding: 0;
+    margin: 0 auto;
+}
+
+:root {
+    --carolina-blue: rgb(75, 156, 211);
+}
+
+header {
+    opacity: 0.9;
+    background-color: var(--carolina-blue);
+}
+
+.navbar-light {
+    background: var(--carolina-blue);
+}
+
+.nav-default {
+    color: white;
+}
+
+.navbar-default {
+    background: var(--carolina-blue);
+    color: white;
+    padding-right: 5%;
+    align-items: center;
+}
+
+a {
+    color: white;
+}
+
+.container-fluid {
+    background-image: url("https://nsfp.unc.edu/sites/nsfp.unc.edu/files/styles/adaptive/public/gaa-292.jpg?itok=S30hWp6_");
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+    padding: 0;
+    margin: auto;
+}
+
+h1 {
+    font-family: 'Libre Baskerville', serif;
+    font-size: 5em;
+    color: white;
+    text-align: center;
+    position: relative;
+    top: 150px;
+    margin: auto;
+}
+
+h2 {
+    font-size: 1.2em;
+    padding-top: 4%;
+    padding-bottom: 1.5%;
+    text-align: center;
+    color: darkblue;
+    font-weight: bold;
+}
+
+p {
+    text-align: center;
+    padding-top: 1%;
+    padding-left: 5%;
+    padding-right: 5%;
+
+}
+
+.columns {
+    text-align: left;
+}
+
+.box {
+    background-color: lightskyblue;
+    position: relative;
+    left: 5%;
+    width: 90%;
+    height: 5px;
+}
+
+img {
+    width: 30%;
+    position: relative;
+    left: 35%;
+    padding-top: 2%;
+    padding-bottom: 2%;
+}
+
+.logo {
+    padding: 0;
+    margin: auto;
+}
