@@ -32,11 +32,20 @@ a {
     color: white;
 }
 
+h3 {
+    color: white;
+    size: 3em;
+    text-align: center;
+    justify-self: center;
+}
+
 .container-fluid {
     background-image: url("https://nsfp.unc.edu/sites/nsfp.unc.edu/files/styles/adaptive/public/gaa-292.jpg?itok=S30hWp6_");
     background-size: cover;
+    align-content: center;
+    align-items: center;
     background-repeat: no-repeat;
-    height: 100vh;
+    height: 50vh;
     padding: 0;
     margin: auto;
 }
@@ -80,6 +89,18 @@ p {
     height: 5px;
 }
 
+footer {
+    position: relative;
+    bottom: 0;
+    text-align: center;
+    height: 20vh;
+    font-size: 0.75em;
+    color: white;
+    background-color: var(--carolina-blue);
+    opacity: 0.9;
+    width: 100vw;
+}
+
 img {
     width: 30%;
     position: relative;
@@ -90,5 +111,7 @@ img {
 
 .logo {
     padding: 0;
-    margin: auto;
+    width: fit-content;
+    margin: 0;
+    align-self: right;
 }

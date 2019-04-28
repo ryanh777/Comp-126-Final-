@@ -1,0 +1,144 @@
+body,
+html {
+    color: white;
+}
+
+.container-fluid {
+    background-image: url("https://global.unc.edu/files/2013/03/spring_4_09__12_054.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 20vh;
+    padding: 0;
+    margin: auto;
+    text-align: center;
+    grid-template-rows: auto;
+    grid-template-columns: auto;
+    justify-items: center;
+}
+
+:root {
+    --carolina-blue: rgb(75, 156, 211);
+    --dark-grey: #757575;
+}
+
+header {
+    opacity: 0.9;
+    background-color: var(--carolina-blue);
+}
+
+.navbar-default {
+    background: var(--carolina-blue);
+    color: white;
+    padding-right: 5%;
+    align-items: center;
+}
+
+.nav-link:hover {
+    color: darkblue;
+}
+
+.searchbar {
+    padding-top: 2%;
+}
+
+#bar {
+    font-size: .9em;
+    border: none;
+}
+
+input::placeholder {
+    color: rgb(1, 1, 1, 0.3)
+}
+
+.fas {
+    font-size: 1.5em;
+    margin-right: 0.5em;
+}
+
+
+
+a {
+    color: white;
+}
+
+.card {
+    background: white;
+    display: inline-block;
+    height: 250px;
+    margin: 5px;
+    position: relative;
+    width: 300px;
+    box-shadow: box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16);
+}
+
+.card:hover {
+    box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
+    transform: scale(1.2);
+}
+
+.holder {
+    display: grid;
+    grid-row: 2/-1;
+    height: fit-content;
+    width: 100vw;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: repeat(auto-fit, 1fr);
+}
+
+.content {
+    justify-content: space-around;
+    color: black;
+    display: grid;
+    background-color: var(--dark-grey);
+    grid-template-rows: auto;
+    grid-template-columns: auto;
+    text-align: center;
+    align-items: center;
+    grid-row: 2/5;
+    height: fit-content;
+    grid-column: 1/-1;
+}
+
+
+
+.card-2 {
+    grid-row: 2;
+    grid-column: 2;
+    background-image: url("https://2.bp.blogspot.com/-mfZR-a8JycA/VRNBAIiSBQI/AAAAAAAAS3I/QHlUFWLka6c/s1600/salmon%2Bsupper.jpg");
+    background-size: cover;
+}
+
+.card-3 {
+    grid-row: 1;
+    grid-column: 3;
+    background-image: url("https://www.menulog.com.au/blog/wp-content/uploads/2016/04/Desserts-750x500.png");
+    background-size: cover;
+}
+
+.card-1 {
+    grid-row: 1;
+    grid-column: 1;
+    background-image: url("https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/shutterstock-626261780mod-1515166546.jpg");
+    background-size: cover;
+}
+
+.card-4 {
+    grid-row: 1;
+    grid-column: 2;
+    background-image: url("https://www.vegetariantimes.com/.image/t_share/MTQ3OTYzMzI3NjQzOTE5NzEw/fruit-salad.jpg");
+    background-size: cover;
+}
+
+.card-5 {
+    grid-row: 2;
+    grid-column: 1;
+    background-image: url("http://images.media-allrecipes.com/userphotos/960x960/4552561.jpg");
+    background-size: cover;
+}
+
+.card-6 {
+    grid-row: 2;
+    grid-column: 3;
+    background-image: url("https://mobile-cuisine.com/wp-content/uploads/2013/01/spaghetti-fun-facts-e1451917160731.jpg");
+    Background-size: cover;
+}
